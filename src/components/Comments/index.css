@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.mainContainer {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.commentCard {
+  height: 80%;
+  width: 80%;
+}
+
+.mainHeading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .commentDataInputContainer {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .commentDataInputContainer {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .commentsPhoto {
+    order: 2;
+  }
+
+  .addNewCommentContainer {
+    order: 1;
+  }
+}
+
+.note {
+}
+
+.inputEl {
+  width: 100%;
+  margin: 10px;
+}
+
+.commentInputEl {
+  width: 100%;
+  margin: 10px;
+}
+
+.addCommentButton {
+}
